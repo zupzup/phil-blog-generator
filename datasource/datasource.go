@@ -1,7 +1,7 @@
 package datasource
 
 import (
-	"github.com/zupzup/blog-generator/config"
+	"github.com/zupzup/phil-blog-generator/config"
 )
 
 // DataSource is the data-source fetching interface

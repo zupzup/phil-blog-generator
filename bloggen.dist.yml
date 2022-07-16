@@ -1,15 +1,15 @@
 generator:
-    repo: 'https://github.com/zupzup/blog'
+    repo: 'https://github.com/zupzup/phil-blog'
     branch: 'main'
     tmp: 'tmp'
     dest: 'www'
     userss: true
 blog:
-    url: 'https://www.zupzup.org'
+    url: 'https://www.philozuphy.com'
     language: 'en-us'
-    description: 'A blog about Go, JavaScript, Open Source and Programming in General'
+    description: 'TBD'
     dateformat: '02.01.2006'
-    title: 'zupzup'
+    title: 'philozuphy'
     author: 'Mario Zupan'
     frontpageposts: 10
     statics:

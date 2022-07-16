@@ -14,7 +14,7 @@ import (
 
 	"github.com/alecthomas/chroma/formatters/html"
 	"github.com/alecthomas/chroma/styles"
-	"github.com/zupzup/blog-generator/config"
+	"github.com/zupzup/phil-blog-generator/config"
 )
 
 // Meta is a data container for Metadata
@@ -131,7 +131,7 @@ func runTasks(posts []*Post, t *template.Template, destination string, cfg *conf
 		Posts:       posts,
 		Template:    t,
 		Destination: filepath.Join(destination, "archive"),
-		PageTitle:   "Archive",
+		PageTitle:   "Archiv",
 		IsIndex:     false,
 		Writer:      indexWriter,
 	}}

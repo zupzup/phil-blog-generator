@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zupzup/blog-generator/cli"
+	"github.com/zupzup/phil-blog-generator/cli"
 )
 
 func main() {
